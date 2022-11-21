@@ -1,0 +1,97 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    height: 40px;
+    background-color: white;
+    position: relative;
+}
+
+.Color,.simple{
+    color: rgb(73,166,233);
+    letter-spacing: 4px;
+    top: 20px;
+    font-size: 20px;
+    position: absolute;
+  
+}
+.Color{
+    left: 25%;
+}
+.simple{
+    left: 60%;
+    color: black;
+}
+.simple:hover{
+    color: rgb(73,166,233);
+    cursor: pointer;
+}
+
+.header{
+    height: 700px;
+}
+
+.change-color{
+    height: 100px;
+    width: 50%;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+
+.text-color{
+    padding-top: 30px;
+    padding-left: 40px;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 2px;
+    width: 100%
+}
+
+.btn{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.btn:hover{
+    animation: ButtonColor .6s  linear forwards; 
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+
+@keyframes ButtonColor{
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: black;
+        color: white;
+
+    }
+
+}
