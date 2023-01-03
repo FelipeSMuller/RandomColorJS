@@ -11,7 +11,7 @@ const cores = [
 //Event Listener
 const botao = document.querySelector('.btn');
 botao.addEventListener('click',function(){
-    var randomColor = cores[Math.floor(Math.random()*cores.length)];
+    let randomColor = cores[Math.floor(Math.random()*cores.length)];
     let header = document.getElementById('mudaCor');
     header.style.backgroundColor = randomColor;
 });
